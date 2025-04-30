@@ -7,4 +7,4 @@
   ```bash
   npm install -D @playwright/test
   npx playwright install
-  ➜  workAI git:(devlope) ✗ nvm use 18                                                                 
+nvm use 18                                                                 
