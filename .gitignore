@@ -9,7 +9,7 @@ yarn-error.log
 
 # VSCode settings
 .vscode/
-
+.credentials
 # Mac system files
 .DS_Store
 
