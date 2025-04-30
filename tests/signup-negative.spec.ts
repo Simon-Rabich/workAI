@@ -1,9 +1,9 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../pages/LoginPage';
+import { SignUpPage } from '../pages/SignUpPage';
 
 test('Sign up flow negative validation', async ({ page }) => {
-  const login = new LoginPage(page);
-  await login.gotoLoginPage();
+  const login = new SignUpPage(page);
+  await login.goto();
 
   // Enter invalid data (single letters for name and invalid email)
   await page.locator('input[name="firstName"]').fill('J');
