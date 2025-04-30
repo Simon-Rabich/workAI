@@ -12,5 +12,5 @@
     "skipLibCheck": true,
     "types": ["@playwright/test"]
   },
-  "include": ["tests", "pages", "utils", "tests2/login.spec.ts", "tests2/signup-negative.spec.ts", "tests2/login-google-sso.spec.ts", "tests2/signup.spec.ts", "tests2/create-team.spec.ts", "tests2/create-team-with-login.spec.ts"]
+  "include": ["tests", "pages", "utils", "tests2/login.spec.ts", "tests2/signup-negative.spec.ts", "tests2/login-google-sso.spec.ts", "tests2/signup.spec.ts", "tests2/create-team.spec.ts", "tests/create-team-with-login.spec.ts"]
 }
